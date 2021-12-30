@@ -80,3 +80,27 @@ html, body {
     background-color: #061222;
 
 }
+#countdown-box::after {
+    display: inline-block;
+    width: 100%;
+    content: "";
+}
+
+#countdown-box {
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    width: 90%;
+}
+.cdi {
+    display: inline-block;
+    font-size: 5em;
+    text-align: center;
+    color: #cba02b;
+}
+#countdown-box {
+    text-align: center;
+}
